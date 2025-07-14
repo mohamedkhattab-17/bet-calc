@@ -31,7 +31,7 @@ if st.button("Calculate Bets"):
         st.markdown(f"**Bet on Team 1:** €{bet1:.2f}")
         st.markdown(f"**Bet on Team 2:** €{bet2:.2f}")
         st.markdown(f"**Total Bet:** €{bet1 + bet2:.2f}")
-        st.markdown(f"**Percentage:** €{percentage:.2f}")
+        st.markdown(f"**Percentage:** % {percentage:.2f}")
 
         if R < investment:
             st.error(f"⚠️ Not a good deal — Guaranteed Loss: €{profit:.2f}")
